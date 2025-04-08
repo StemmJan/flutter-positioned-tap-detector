@@ -198,5 +198,5 @@ class TapPosition {
   }
 
   @override
-  int get hashCode => hashValues(global, relative);
+  int get hashCode => Object.hash(global, relative);
 }
